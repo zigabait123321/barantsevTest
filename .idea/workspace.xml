@@ -22,10 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c30e73e-965f-4be2-9177-bbfba2c8a592" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/qaAutomation/testttt/MyFirstProgramm.java" afterDir="false" />
+    <list default="true" id="0c30e73e-965f-4be2-9177-bbfba2c8a592" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/qaAutomation/testttt/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/qaAutomation/testttt/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/qaAutomation/testttt/MyFirstProgramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/qaAutomation/testttt/MyFirstProgramm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/qaAutomation/testttt/MyFirstProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/barantsevTest-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/qaAutomation/testttt/MyFirstProgramm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,31 +71,185 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.qaAutomation.testttt" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="MyFirstProgramm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.qaAutomation.testttt.MyFirstProgramm" />
+  <component name="RunManager" selected="TestNG.C:/IdeaProjectTesr/barantsevTest/testng.xml">
+    <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.qaAutomation.testttt.MyFirstProgram" />
       <module name="barantsevTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/IdeaProjectTesr/barantsevTest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="barantsevTest" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstProgramTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="barantsevTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.qaAutomation.testttt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.qaAutomation.testttt" />
+      <option name="MAIN_CLASS_NAME" value="ru.qaAutomation.testttt.MyFirstProgramTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstProgramTest" type="TestNG" nameIsGenerated="true">
+      <module name="barantsevTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.qaAutomation.testttt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.qaAutomation.testttt" />
+      <option name="MAIN_CLASS_NAME" value="ru.qaAutomation.testttt.MyFirstProgramTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstProgramTest.testArea (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="barantsevTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.qaAutomation.testttt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.qaAutomation.testttt" />
+      <option name="MAIN_CLASS_NAME" value="ru.qaAutomation.testttt.MyFirstProgramTest" />
+      <option name="METHOD_NAME" value="testArea" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstProgramTest.testArea" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="barantsevTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.qaAutomation.testttt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.qaAutomation.testttt" />
+      <option name="MAIN_CLASS_NAME" value="ru.qaAutomation.testttt.MyFirstProgramTest" />
+      <option name="METHOD_NAME" value="testArea" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http = true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyFirstProgram" />
+      <item itemvalue="TestNG.MyFirstProgramTest" />
+      <item itemvalue="TestNG.MyFirstProgramTest.testArea" />
+      <item itemvalue="TestNG.MyFirstProgramTest (1)" />
+      <item itemvalue="TestNG.C:/IdeaProjectTesr/barantsevTest/testng.xml" />
+      <item itemvalue="TestNG.MyFirstProgramTest.testArea (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyFirstProgramm" />
+        <item itemvalue="TestNG.C:/IdeaProjectTesr/barantsevTest/testng.xml" />
+        <item itemvalue="TestNG.MyFirstProgramTest.testArea (1)" />
+        <item itemvalue="TestNG.MyFirstProgramTest (1)" />
+        <item itemvalue="TestNG.MyFirstProgramTest.testArea" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Егор\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0c30e73e-965f-4be2-9177-bbfba2c8a592" name="Default Changelist" comment="" />
@@ -129,7 +293,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607778484583</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1608064645564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608064645564</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gitignore fix">
+      <created>1608064719196</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608064719196</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ignore file">
+      <created>1608064758422</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608064758422</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,13 +334,28 @@
     <MESSAGE value="213111" />
     <MESSAGE value="commit" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="gitignore fix" />
+    <MESSAGE value="ignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore file" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="733" y="189" key="#Auto_Import" timestamp="1608491070939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="189" key="#Auto_Import/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608491070939" />
+    <state x="-1092" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608663259715">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1092" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608663259715" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608663016776" />
     <state x="743" y="385" width="524" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607778880231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="385" width="524" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607778880231" />
+    <state x="879" y="275" key="FileChooserDialogImpl" timestamp="1608491437243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="879" y="275" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608491437243" />
     <state x="829" y="418" width="558" height="309" key="Github.ShareDialog" timestamp="1607540285490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -164,73 +364,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="225" key="Github.UntrackedFilesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607540291017" />
-    <state width="1323" height="114" key="GridCell.Tab.0.bottom" timestamp="1608062937179">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="114" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608062937179" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012467393" />
-    <state width="1323" height="114" key="GridCell.Tab.0.center" timestamp="1608062937179">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="114" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608062937179" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012467393" />
-    <state width="1323" height="114" key="GridCell.Tab.0.left" timestamp="1608062937179">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="114" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608062937179" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012467393" />
-    <state width="1323" height="114" key="GridCell.Tab.0.right" timestamp="1608062937179">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="114" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608062937179" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012467393" />
-    <state width="1323" height="219" key="GridCell.Tab.1.bottom" timestamp="1608048416282">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="219" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608048416282" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012468431" />
-    <state width="1323" height="219" key="GridCell.Tab.1.center" timestamp="1608048416282">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="219" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608048416282" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012468431" />
-    <state width="1323" height="219" key="GridCell.Tab.1.left" timestamp="1608048416282">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="219" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608048416282" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012468430" />
-    <state width="1323" height="219" key="GridCell.Tab.1.right" timestamp="1608048416282">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="219" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608048416282" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012468431" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1607779270189">
+    <state width="1877" height="515" key="GridCell.Tab.0.bottom" timestamp="1608666097138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607779270189" />
-    <state x="393" y="177" key="Vcs.Push.Dialog.v2" timestamp="1607790611261">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="335" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608665434195" />
+    <state width="1877" height="515" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608666097138" />
+    <state width="1877" height="515" key="GridCell.Tab.0.center" timestamp="1608666097137">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1323" height="335" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608665434195" />
+    <state width="1877" height="515" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608666097137" />
+    <state width="1877" height="515" key="GridCell.Tab.0.left" timestamp="1608666097137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="335" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608665434195" />
+    <state width="1877" height="515" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608666097137" />
+    <state width="1877" height="515" key="GridCell.Tab.0.right" timestamp="1608666097138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="335" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608665434195" />
+    <state width="1877" height="515" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608666097138" />
+    <state width="1323" height="219" key="GridCell.Tab.1.bottom" timestamp="1608064778421">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608064778421" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012468431" />
+    <state width="1323" height="219" key="GridCell.Tab.1.center" timestamp="1608064778421">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608064778421" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012468431" />
+    <state width="1323" height="219" key="GridCell.Tab.1.left" timestamp="1608064778421">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608064778421" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012468430" />
+    <state width="1323" height="219" key="GridCell.Tab.1.right" timestamp="1608064778421">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="219" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608064778421" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608012468431" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1608494331282">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608494331282" />
+    <state x="-1053" y="18" key="SettingsEditor" timestamp="1608663228038">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1053" y="18" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608663228038" />
+    <state x="440" y="94" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608663180540" />
+    <state x="-1108" y="128" key="Vcs.Push.Dialog.v2" timestamp="1608064759919">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1108" y="128" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608064759919" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607778434779" />
     <state x="393" y="177" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607790611261" />
-    <state x="821" y="298" key="chooseDestDirectoryDialog" timestamp="1607778879924">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="821" y="298" key="chooseDestDirectoryDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607778879924" />
-    <state x="-976" y="0" width="585" height="728" key="find.popup" timestamp="1608063601012">
+    <state x="-782" y="209" key="chooseDestDirectoryDialog" timestamp="1608665123951">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
+    <state x="-782" y="209" key="chooseDestDirectoryDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608665123951" />
+    <state x="821" y="298" key="chooseDestDirectoryDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607778879924" />
+    <state x="548" y="0" width="823" height="1040" key="find.popup" timestamp="1608663618724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
     <state x="-976" y="0" width="585" height="728" key="find.popup/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1608063601012" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/qaAutomation/testttt/MyFirstProgramm.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="548" y="0" width="823" height="1040" key="find.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608663618724" />
+    <state x="551" y="181" width="1097" height="678" key="new project wizard" timestamp="1608491439326">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="181" width="1097" height="678" key="new project wizard/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1608491439326" />
   </component>
 </project>
